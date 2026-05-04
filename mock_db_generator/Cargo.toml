@@ -1,0 +1,8 @@
+[package]
+name = "mock_db_generator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.10.1"
+zerocopy = { version = "0.8", features = ["derive"] }
